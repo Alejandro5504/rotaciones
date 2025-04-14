@@ -1,0 +1,196 @@
+html {
+    background-color: aqua;
+
+}
+
+body {
+    width: 80%;
+    background-image: url('../img/fondo.png');
+    margin: 0 auto;
+    padding: 2em;
+    height: 280vh;
+
+}
+
+
+img {
+
+    display: block;
+    margin: auto;
+    transform-origin: center center;
+
+
+
+}
+
+h1:hover {
+
+
+    text-shadow: -5px -10px 5px yellow;
+    color: rgba(0, 4, 250, 0.5);
+
+
+}
+
+table {
+
+    width: 99%;
+    border: solid 3px rgb(0, 0, 0);
+    border-collapse: collapse;
+    background-color: white;
+    border-collapse: separate;
+    border-spacing: 12px;
+    border-radius: 8px;
+
+}
+
+td {
+
+    text-align: center;
+    height: 1.5em;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    border-color:rgb(9, 230, 31);
+}
+
+
+
+.cajaTi {
+
+    padding-left: 25px;
+    width: 80%;
+    display: flex;
+    border-top-left-radius: 24px;
+    border-top: solid 5px rgb(250, 0, 0);
+    border-left: solid 5px rgb(250, 0, 0);
+    border-right: solid 5px rgb(250, 0, 0);
+    border-bottom-right-radius: 24px;
+    border-bottom: solid 5px rgb(250, 0, 0);
+    box-shadow: inset 0px 0px 5px 10px rgba(250, 246, 0, 0.6);
+    background-color: crimson;
+
+}
+
+.animacionmono {
+
+    margin-top: 60px;
+    width: 200px;
+    animation: moverse 10s ease-in-out 1s infinite;
+    margin-bottom: 40px;
+
+}
+
+
+@keyframes moverse {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(50px);
+    }
+
+    100% {
+        transform: translateX(100px);
+    }
+
+}
+
+
+.rotacion {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(58deg);
+    gap: 2px
+}
+
+.celda1 {
+
+    background-color: rgb(73, 73, 249);
+    color: rgb(254, 254, 254);
+
+}
+
+.celda2 {
+
+    background-color: rgb(119, 12, 169);
+    color: rgb(254, 254, 254);
+    transform: rotate(-5deg);
+
+}
+
+.celda3 {
+
+    background-color: rgb(119, 12, 169);
+    color: rgb(254, 254, 254);
+    transform: rotate(5deg);
+
+}
+
+.celda4 {
+
+    background-color: rgb(119, 12, 169);
+    color: rgb(254, 254, 254);
+    transform: rotate(-10deg);
+
+}
+
+.celda5 {
+
+    background-color: rgb(119, 12, 169);
+    color: rgb(254, 254, 254);
+    transform: rotate(10deg);
+
+} 
+
+.celda6 {
+
+background-color: rgb(119, 12, 169);
+color: rgb(254, 254, 254);
+transform: rotate(-15deg);
+}
+
+.celda7 {
+
+background-color: rgb(119, 12, 169);
+color: rgb(254, 254, 254);
+transform: rotate(15deg);
+} 
+
+.celda8 {
+
+background-color: rgb(119, 12, 169);
+color: rgb(254, 254, 254);
+transform: rotate(-20deg);
+
+
+} 
+.celda9 {
+
+background: rgb(119, 12, 169);
+color: rgb(254,254,254);
+transform: rotate(20deg);
+
+}
+
+.celda10 {
+
+background-color: rgb(119, 12, 169);
+color: rgb(254, 254, 254);
+transform: rotate(-25deg);
+
+} 
+
+.celda11 {
+
+background-color: rgb(119, 12, 169);
+color: rgb(254, 254, 254);
+transform: rotate(25deg);
+
+}
