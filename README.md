@@ -1,0 +1,2 @@
+# rotaciones
+tabla celdas rotadas
